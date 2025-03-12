@@ -5,5 +5,7 @@ num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
 
 # num1 raised to the power of num2
+total = num1 ** num2
 # print result
+print(total)
 
