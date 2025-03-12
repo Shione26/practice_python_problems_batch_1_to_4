@@ -8,9 +8,10 @@ odd_count = 0
     # loop to ask the user 10 times
 for number_count in range(10):
     number = int(input(f"Enter number {number_count + 1}: "))
-    
- # check if the input is odd number
-    # increment variable
-    
+
+    if number % 2 == 1:    # check if the input is odd number
+        odd_count += 1     # increment variable
+
 #print output
+print(odd_count)
     
