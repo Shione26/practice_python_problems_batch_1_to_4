@@ -10,6 +10,7 @@ even_count = 0
 for number_count in range(10):
     number = int(input(f"Enter number {number_count + 1}: "))
 
-# check if the input is an even number
-    # increment variable 
-# print output
+    if number % 2 == 0:    # check if the input is an even number
+        even_count += 1    # increment variable 
+    
+print(even_count)    # print output
