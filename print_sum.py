@@ -7,3 +7,6 @@ num2 = int(input("Enter a number: "))
 
 # add the two numbers
 # print the sum
+
+total_sum = num1 + num2
+print(total_sum)
