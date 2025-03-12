@@ -5,5 +5,7 @@ num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
 
 # multiply the two numbers
-# print the product of the two numbers
+product = num1 * num2
 
+# print the product of the two numbers
+print(product)
