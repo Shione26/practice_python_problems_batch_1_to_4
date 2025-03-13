@@ -2,7 +2,8 @@
 
 # print 0-100
 
-for number in range(0, 100):
-    print(number)
+for number in range(0, 101):
+    if number % 5 != 0:
+        print(number)
 # check condition if ending zero or 5
 # print output
