@@ -5,4 +5,5 @@ num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
 
 # get all numbers in between two numbers
-# print output
+for output in range(num1 + 1, num2):
+    print(output)    # print output
