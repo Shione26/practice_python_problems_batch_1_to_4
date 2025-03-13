@@ -8,4 +8,6 @@ for number_count in range(10):
     numbers.append(number)
 
 # identify which numbers are inputted only once
-# print the numbers with no duplicate
+for num in numbers:
+    if numbers.count(num) == 1:
+        print(num)    # print the numbers with no duplicate
