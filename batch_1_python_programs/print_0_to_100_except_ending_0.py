@@ -3,7 +3,7 @@
 # print 0-100
 
 for number in range(1, 101):
-    print (number)
+    if number % 10 != 0:       # check condition if number is ending in zero
+        print (number)         # print output
 
-# check condition if number is ending in zero
-# print output
+
