@@ -16,4 +16,14 @@ while True:
         break    # if no, break
 
 # find which has the most number of duplicates
+most_duplicate = None
+highest_count = 0
+
+for num in input_numbers:
+    count = input_numbers.count(num)  # Count how many times num appears
+    if count > highest_count:   # Update most frequent number
+        highest_count = count
+        most_duplicate = num
+
 # print output
+print(most_duplicate)
