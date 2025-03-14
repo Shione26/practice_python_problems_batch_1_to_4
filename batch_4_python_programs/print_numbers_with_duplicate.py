@@ -10,3 +10,7 @@ for number_count in range(10):
 
 # identify which numbers have duplicate
 # print output
+
+for num in numbers:
+    if numbers.count(num) > 1:
+        print(num)
