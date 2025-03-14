@@ -6,7 +6,15 @@ input_numbers = []
 # loop to ask user to input a number continuesly until invalid input
 while True:
     user_input = input("Enter a number: ")
+
 # check if input is invalid
-    # if no, break
+    try:
+        user_input = int(user_input)
+        input_numbers.append(user_input)
+    except ValueError:
+        print("Invalid input")      # if no, break
+        break
+
+
     # if yes, add the input to the list
 # print the lowest number using min() function
