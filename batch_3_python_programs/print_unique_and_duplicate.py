@@ -14,7 +14,12 @@ while True:
         print("Input is invalid")
         break
         
-        # if yes, check if input already exists in the set
+    # if yes, check if input already exists in the set
+    if user_input in input_numbers:
+        print("Duplicate")
+    else:
+        print("Unique")
+        input_numbers.add(user_input)
             # if Yes, print "Duplicate"
             # if No, print "Unique" then add the input to the set
     
