@@ -16,4 +16,6 @@ while True:
         break
 
 # get their sum then divide to the length of the input
+average = sum(input_numbers) / len(input_numbers)
 # print output
+print(average)
