@@ -2,10 +2,11 @@
 
 # ask user to input 10 numbers
 
+numbers = []
+
 for number_count in range(10):
     number = int(input(f"Enter number {number_count +1}: "))
+    numbers.append(number)
 
-# use a list
-# display all numbers
-    # check if numbers have duplicate
-    # display only the first entry
+duplicated_num = set(numbers)
+print(duplicated_num)
