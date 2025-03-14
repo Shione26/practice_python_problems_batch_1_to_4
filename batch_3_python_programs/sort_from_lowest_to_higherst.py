@@ -15,7 +15,6 @@ while True:
         print("Input is invalid")           # if no, break
         break
 
-
 # sort numbers from lowest to highest using sort() function
 input_numbers.sort() 
 # print output
