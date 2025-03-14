@@ -7,10 +7,10 @@ input_numbers = []
 while True:
     user_input = input("Enter a number: ")
 
-# check if input is invalid
+# check if input is valid
     try:
         user_input = int(user_input)
-        input_numbers.append(user_input)   # if yes, add the input to the list
+        input_numbers.append(user_input)   # if yes, store the input to the list
     except ValueError:
         print("Invalid input")      # if no, break
         break

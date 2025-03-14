@@ -7,7 +7,7 @@ input_numbers = set()
 while True:
     user_input = (input("Enter a number: "))
 
-    # check if input is invalid or not a number
+    # check if input is valid
     try:
         user_input = int(user_input)
     except ValueError:                # if no, break
@@ -16,10 +16,8 @@ while True:
         
     # if yes, check if input already exists in the set
     if user_input in input_numbers:
-        print("Duplicate")
+        print("Duplicate")      # if Yes, print "Duplicate"
     else:
-        print("Unique")
-        input_numbers.add(user_input)
-            # if Yes, print "Duplicate"
-            # if No, print "Unique" then add the input to the set
-    
+        print("Unique")         # if No, print "Unique" 
+        input_numbers.add(user_input)    # then add the input to the set
+        
