@@ -10,11 +10,12 @@ while True:
 # check if input is invalid
     try:
         user_input = int(user_input)
-        input_numbers.append(user_input)
+        input_numbers.append(user_input)   # if yes, add the input to the list
     except ValueError:
         print("Invalid input")      # if no, break
         break
 
-
-    # if yes, add the input to the list
 # print the lowest number using min() function
+if input_numbers:
+    print(min(input_numbers))
+
