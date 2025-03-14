@@ -8,8 +8,12 @@ while True:
     user_input = (input("Enter a number: "))
 
 # check if input is valid
+    try:
+        user_input = int(user_input)
+        input_numbers.append(user_input)    # if yes, store input to the list
+    except ValueError:               
+        print("Input is invalid")           # if no, break
+        break
 
-# if yes, store input to the list
-# if no, break
 # get their sum then divide to the length of the input
 # print output
