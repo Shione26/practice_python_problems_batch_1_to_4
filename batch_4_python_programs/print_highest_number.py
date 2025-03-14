@@ -16,3 +16,4 @@ while True:
         break      # if no, break
 
 # print the highest number using max() function
+print(max(input_numbers))
