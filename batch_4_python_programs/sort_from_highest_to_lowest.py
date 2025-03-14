@@ -16,4 +16,6 @@ while True:
         break
 
 # sort numbers from highest to lowest using sort() function
+input_numbers.sort(reverse=True)
 # print output
+print(input_numbers)
